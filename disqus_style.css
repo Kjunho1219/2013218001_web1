@@ -1,0 +1,34 @@
+body {font-family: fantasy;, sans-self;}
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+'
+body,div,h1,p,ul,img{margin: 0px;,padding: 0px;} /*css reset 기본padding,margin값제거*/
+
+.disqus_img{
+  position: relative;
+    background-image: url(./disqusBack.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.disqus_img_cover{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index:1;
+}
+
+.disqus_img .content{
+  position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:25px;
+    color: white;
+    z-index: 2;
+    text-align: left;
+}

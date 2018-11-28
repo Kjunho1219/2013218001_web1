@@ -1,0 +1,36 @@
+body {font-family: fantasy;, sans-self;}
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+'
+body,div,h1,p,ul,img{margin: 0px;,padding: 0px;} /*css reset 기본padding,margin값제거*/
+
+.atom_img{
+  position: relative;
+/*  background-image: url(./atomBack.jpg);*/
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  font-size:18px;
+}
+
+.atom_img_cover{
+  position: :absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4); /*0.4 = 투명도*/
+  z-index: 1; /*배경이미지보다 커버이미지가 앞에*/
+}
+
+.atom_img .atom_content{
+  position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     font-size:5rem;
+     color: white;
+     z-index: 2;
+     text-align: center;
+   }

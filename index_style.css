@@ -1,0 +1,50 @@
+body {font-family: fantasy;, sans-self;}
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+'
+body,div,h1,p,ul,img{margin: 0px;,padding: 0px;} /*css reset 기본padding,margin값제거*/
+
+
+
+.index_img{
+  position: relative;
+  background-image: url(./indexBack.jpg);
+  height: 100vh;
+  background-size: cover; /*배경화면이 창을 채워야함*/
+} /*배경이미지 세팅 100vh=현재창의100%높이 vh=view height*/
+
+.index_img_cover{
+  position: :absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5); /*0.4 = 투명도*/
+  z-index: 1; /*배경이미지보다 커버이미지가 앞에*/
+}
+
+.index_img .index_content{
+  position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     font-size:5rem;
+     color: white;
+     z-index: 2;
+     text-align: center;
+
+     text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+     -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+     -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+     /*text에 흰색 테두리*/
+}
+
+
+.index_img .index_content h1:after{
+  display: block;
+    content:'';
+    width: 100%;
+    margin: 10px auto;
+    border: 4px solid white;
+}
