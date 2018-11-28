@@ -32,3 +32,6 @@ body,div,h1,p,ul,img{margin: 0px;,padding: 0px;} /*css reset 기본padding,margi
     z-index: 2;
     text-align: left;
 }
+.button{
+  text-align: center;
+}
