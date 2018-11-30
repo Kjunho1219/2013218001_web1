@@ -25,6 +25,7 @@ body,div,h1,p,ul,img{margin: 0px;,padding: 0px;} /*css reset 기본padding,margi
   z-index: 1; /*배경이미지보다 커버이미지가 앞에*/
 }
 
+/*
 .atom_img .atom_content{
   position: absolute;
      top:50%;
@@ -35,3 +36,4 @@ body,div,h1,p,ul,img{margin: 0px;,padding: 0px;} /*css reset 기본padding,margi
      z-index: 2;
      text-align: center;
    }
+*/

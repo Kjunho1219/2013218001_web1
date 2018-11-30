@@ -31,7 +31,8 @@ body,div,h1,p,ul,img{margin: 0px;,padding: 0px;} /*css reset 기본padding,margi
     color: white;
     z-index: 2;
     text-align: left;
-}
+} /*본문텍스트*/
+
 .button{
   text-align: center;
 }

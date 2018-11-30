@@ -1,0 +1,32 @@
+/*선택자 #과 .차이
+#=id , .=class*/
+
+#container{
+  width: 960px; margin :0 auto;
+}
+#container #input-form{
+  text-align: center;
+}
+#user-table{
+  margin: 0 auto;
+  text-align: center;
+}
+#input-form{
+  margin-top: 10px; margin-bottom: 10px;
+}
+
+#user-table{
+  border-collapse: collapse; /*table과 td테두리 사이의 간격 : 삭제*/
+}
+#user-table > thead >tr{
+  background-color: #333000;
+  color: #ffffff;
+}
+#user-table>thead>tr>th{
+padding: 8px;
+width: 150px;
+}
+#user-table>tbody>tr>td{
+border-bottom: 1px solid #cccccc;
+padding: 8px
+}
